@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div class="even-columns">
+            <section class="reverse1">
+                <div class="fs-600 container-image">
+                    <div>
+                        <div>
+                            <img id="mobile-img" src="./resources/images/images/illustration-sign-up-mobile.svg" alt="char illustration">
+                            <img id="desktop-img" src="./resources/images/images/illustration-sign-up-desktop.svg" alt="sign up desktop illustration">
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="contain-box">
+                <div class="container padding-block-600"> 
+                    <div>
+                        <h1 class="header-bold">Stay Updated!</h1>
+                        <p class="padding-block-500">Join 60,000+ product managers reciving monthly updates on:</p>
+                    </div>
+                    <div>
+                        <li>
+                            <img src="./resources/images/images/icon-list.svg" alt="icon-list">
+                            <p>Product discovery and building what matters</p>
+                        </li>
+                        <li>
+                            <img src="./resources/images/images/icon-list.svg" alt="icon-list">
+                            <p>Measuring to ensure updates are a success</p>
+                        </li>
+                        <li>
+                            <img src="./resources/images/images/icon-list.svg" alt="icon-list">
+                            <p>And much more!</p>
+                        </li>
+                    </div>
+                    <div class="userInfo">
+                        <div class="labelsUser">
+                            <label for="email" class="accent-bold">Email address</label>
+                            <label id = "errorText" class="accent-bold">Valid email required</label>
+                        </div>
+                        <form action="" id="form" onsubmit="validate(event)">
+                            <input id="data" type="text" placeholder="email@company.com">
+                            <button class="iniButton" type="submit">Subscribe to monthly newsletter</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reverse2">
+                <div class="fs-600 container-image">
+                    <div>
+                        <div>
+                            <img id="mobile-img" src="./resources/images/images/illustration-sign-up-mobile.svg" alt="char illustration">
+                            <img id="desktop-img" src="./resources/images/images/illustration-sign-up-desktop.svg" alt="sign up desktop illustration">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+</body>
+<script src="./resources/script/script.js">
+
+</script>
+</html>
