@@ -14,7 +14,7 @@ function validate(event) {
     }
     else
     {
-        location.href = "./succes.html";
+        location.href = "succes.html"
         document.addEventListener("DOMContentLoaded", function () {
             console.log("running");
             document.getElementById("emailData").innerText = data;
